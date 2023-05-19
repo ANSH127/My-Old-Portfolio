@@ -1,17 +1,23 @@
+"use client"
 import './globals.css'
 import { Inter } from 'next/font/google'
 import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
-
+import { useEffect } from 'react'
+import React from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Ansh Agarwal | Full Stack Web Developer',
   description: 'Ansh Portfolio Website',
-  
+
 }
 
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    require('bootstrap/dist/js/bootstrap.bundle.min.js');
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -25,8 +31,9 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
           integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossOrigin="anonymous" />
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
 
       </head>
 
