@@ -343,6 +343,7 @@ transition:all 1s ease-in-out .2s;
 @media only screen and (max-width: 750px) {
   .contact-img {
       width: auto !important;
+      height: auto !important;
 
   }
 
