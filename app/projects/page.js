@@ -22,7 +22,7 @@ const client = createClient({
     projectId: "cibcord3",
     dataset: "production",
     apiVersion: "2021-10-21",
-    useCdn: true,
+    useCdn: false,
 });
 const builder = imageUrlBuilder(client)
 
