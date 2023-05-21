@@ -315,6 +315,9 @@ transition:all 1s ease-in-out .2s;
 #content img{
   width: 100%;
 }
+#content p{
+  text-align: justify !important;
+}
 
 
 

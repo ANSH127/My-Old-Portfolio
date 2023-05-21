@@ -5,6 +5,7 @@ import groq from "groq";
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link';
 import format from 'date-fns/format';
+import Navbar from '@/components/Navbar';
 
 
 
@@ -36,6 +37,7 @@ export default async function page() {
     return (
         <>
             <section id='blog'>
+                <Navbar />
 
                 <div className="container">
                     <section className="text-center">

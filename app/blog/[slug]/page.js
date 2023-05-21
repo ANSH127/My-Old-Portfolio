@@ -52,7 +52,7 @@ export default async function page({ params }) {
             <div>
               <div className="container py-6 md:py-10">
                 <div className="mx-auto  col-10 text-white pt-5">
-                  <p className='lh-base fs-5 fw-bolder text-secondary'>Last Updated: {format(new Date(blog._updatedAt), 'MMMM dd, yyyy')}</p>
+                  <p className='lh-base fs-6 fw-bolder text-secondary'>Last Updated: {format(new Date(blog._updatedAt), 'MMMM dd, yyyy')}</p>
                   <div className="bg-image " data-mdb-ripple-color="light">
                     <img src=
                       {builder.image(blog.blogImage).url()}
@@ -62,10 +62,10 @@ export default async function page({ params }) {
                   <div className='pt-4'>
                     <img
                       src={builder.image(author.image).width(50).height(50).url()}
-                      class="rounded-circle"
+                      className="rounded-circle"
                       alt="Avatar" />
                     <span className="mx-2 fw-bold" style={{ color: "#3d76e3" }} >{author.title}</span>
-                    <span class="badge bg-success">AUTHOR</span>
+                    <span className="badge bg-success">AUTHOR</span>
                   </div>
                   <hr />
                   <div className="">
@@ -79,7 +79,7 @@ export default async function page({ params }) {
                       content={blog.content}
                       projectId="cibcord3"
                       dataset="production"
-                      className=' lh-base fs-5 fw-bolder text-secondary
+                      className=' lh-base fs-6 fw-bolder text-secondary 
 
                       w-100 pb-2'
 
@@ -105,12 +105,12 @@ export default async function page({ params }) {
                     <div className="col-md-3 text-center">
                       <img src=
                         {builder.image(author.image).width(200).height(200).url()}
-                        class="rounded-circle my-4" style={{ width: "150px" }}
+                        className="rounded-circle my-4" style={{ width: "150px" }}
                         alt="Avatar" />
                     </div>
                     <div className="col-md-9" id='authordetails'>
                       <h2 className='my-3  fw-bolder'>Ansh Agarwal</h2>
-                      <p className='lh-base fs-5 fw-bolder text-secondary'>A Student and Full Stack Web Developer from India with a immense knowledge of DevOps and experience in Backend APIs. Loves to contribute to Open Source.</p>
+                      <p className='lh-base fs-6 fw-bolder text-secondary'>A Student and Full Stack Web Developer from India with a immense knowledge of DevOps and experience in Backend APIs. Loves to contribute to Open Source.</p>
                       <div className='author-links'>
                         <a className="btn text-white btn-floating m-1" href="https://www.instagram.com/i_agarwal_ansh/" role="button"
                           style={{ backgroundColor: '#ac2bac' }}><i className="fab fa-instagram"></i></a>
