@@ -10,7 +10,7 @@ import imageUrlBuilder from '@sanity/image-url'
 async function fetchProjects() {
 
 
-    const projects = await client.fetch(groq`*[_type == "Project"] | order(_createdAt asc)`, { cache: "no-store" });
+    const projects = await client.fetch(groq`*[_type == "Project"] | order(_createdAt asc)`,  { cache: 'no-store' });
 
     return projects;
 

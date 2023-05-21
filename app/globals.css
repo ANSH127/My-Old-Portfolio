@@ -303,7 +303,18 @@ transition:all 1s ease-in-out .2s;
 }
 
 
+#blog{
+  background-color: black;
+}
 
+.card-title:hover{
+  color: #3d76e3 !important;
+  
+}
+
+#content img{
+  width: 100%;
+}
 
 
 
@@ -366,6 +377,12 @@ transition:all 1s ease-in-out .2s;
   }
   .card-body h5{
       font-size: x-large;
+  }
+  #authordetails h2{
+    text-align: center;
+  }
+  .author-links {
+    text-align: center;
   }
 
 
