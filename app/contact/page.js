@@ -92,7 +92,7 @@ export default function page() {
                             className="fab fa-linkedin-in"></i></a>
                     {/* <!-- Github --> */}
                     <a className="btn text-white btn-floating m-1" style={{ backgroundColor: '#333333' }}
-                        href="https://github.com/the-error4-0-4" role="button"><i className="fab fa-github"></i></a>
+                        href="https://github.com/ANSH127" role="button"><i className="fab fa-github"></i></a>
                 </div>
 
 
